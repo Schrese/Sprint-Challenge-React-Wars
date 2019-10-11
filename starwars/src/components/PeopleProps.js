@@ -12,6 +12,8 @@ const PeopleProps = (props) => {
             <ToastBody>
                 <h4>Weight: {props.weight}</h4>
                 <h4>Height: {props.height}</h4>
+                <h4>Hair Color: {props.hair}</h4>
+                {/* <h4>Films: {props.films}</h4> */}
             </ToastBody>
         </div>
         </Toast>
