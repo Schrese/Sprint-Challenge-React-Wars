@@ -1,10 +1,20 @@
 import React from 'react';
+import {Toast, ToastBody, ToastHeader} from 'reactstrap';
 
 const PeopleProps = (props) => {
     return (
+        <div className='p-3 my-2 rounded '>
+        <Toast>
         <div key={props.id}>
-            <h2>Character: {props.name}</h2>
-            <h4>Weight: {props.weight}</h4>
+            <ToastHeader>
+                <h2>{props.name}</h2>
+            </ToastHeader>
+            <ToastBody>
+                <h4>Weight: {props.weight}</h4>
+                <h4>Height: {props.height}</h4>
+            </ToastBody>
+        </div>
+        </Toast>
         </div>
     )
 }

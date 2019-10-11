@@ -22,7 +22,7 @@ const PeopleList = () => {
             <div className = 'charz'> 
                 {characters.map(item => {
                     return (
-                    <PeopleProps key={item.id} name={item.name} weight = {item.mass}/>s
+                    <PeopleProps key={item.id} name={item.name} weight = {item.mass} height = {item.height}/>
                     )
                 })
             }
