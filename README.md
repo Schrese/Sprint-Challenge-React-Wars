@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a User Interface Component Library that seeks to solve the problem of long render times, and help developers build larger scale apps.
+
 - [ ] What does it mean to _think_ in react?
+
+it means following step-by-step processes in order to identify where and what you might be working with
 
 - [ ] Describe state.
 
+state is where you store the current use of something
+
 - [ ] Describe props.
 
+props are properties that can be passed down from parent to child
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+side effects are when the function is looped through more times than it should be, which affects components outside of that given function. We can stop it by telling it when to stop looping through the function by doing a cleanup. 
 
 ## Project Set Up
 
